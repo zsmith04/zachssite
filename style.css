@@ -1,0 +1,153 @@
+body,
+html {
+    display: grid;
+    height: 100%;
+	background: linear-gradient(180deg, rgb(0, 172, 193), rgb(6, 66, 115));
+    vertical-align:top;
+}
+
+p {
+	margin: auto;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+	font-size: 12vw;
+	color: #fff;
+	opacity: 0.8;
+	line-height: 0.8em;
+}
+.word {
+	display: block !important;
+}
+
+.char {
+	opacity: 0;
+}
+
+.button {
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+height:100px;
+width:auto;
+font-size:5vw;
+color:white;
+	font-family: 'Alegreya Sans SC', sans-serif;
+    text-align:center;
+}
+
+.button:hover {
+    color:white;
+    cursor: pointer;
+    text-shadow: 0 0 5px #000000;
+}
+
+#div1, #div2, #div3 {
+    background-color:none;
+    font-family: 'Signika Negative', sans-serif;
+    border-color:white;
+    border-style: solid;
+    color:white;
+    padding:5px;
+    width: 75%;
+    margin:auto;
+    border-width:0px;
+}
+
+#skills, #xp, #site {
+    display:none;
+}
+
+.floatleft {
+    width: 25%;
+    height:100%;
+    float: left;
+    padding: 20px;
+    border: 0px solid red;
+}  
+
+.floatright {
+    width: 50%;
+    height:100%;
+    float: left;
+    padding: 20px;
+    border: 0px solid red;
+}  
+
+h2 {
+    font-size:1.8vw;   
+}
+
+
+
+#div1 {
+    border-radius: 25px;
+    background-color:#1d89ab;
+    padding:15px;
+    border-width:1px;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+h1, a {
+    font-size:1.5vw;
+    cursor: pointer;
+    font-family: 'Acme', sans-serif;
+}
+
+h1:hover, a:hover {
+    color:white;
+    cursor: pointer;
+    text-shadow: 0 0 5px #000000;
+}
+
+.bar {
+    width: 80%;
+background-color:green;
+font-size:1.2vw;
+padding:5px;
+margin:3px;
+}
+
+h3, h4 {
+    margin:0px;
+}
+
+h3{
+    border-bottom: 3px solid #ef5675;
+
+}
+
+h4{
+    color: seashell;
+    font-style: italic;
+}
+
+.bar:hover {
+    opacity:0.8;
+}
+
+.red {
+background-color:#ffa600;
+}
+.blue {
+background-color:#ff6361;
+}
+.pink {
+    background-color:#ef5675;
+}
+.purple { 
+background-color:#bc5090;
+}
+.dpurple {
+    background-color:#58508d
+}
+
+.dppurple {
+    background-color:#374c80
+}
+.dblue {
+    background-color:#003f5c
+}
