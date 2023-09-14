@@ -1,9 +1,10 @@
 body,
 html {
-    display: grid;
-    height: 100%;
-	background: linear-gradient(180deg, rgb(0, 172, 193), rgb(6, 66, 115));
+   
     vertical-align:top;
+    background: rgb(30,193,247);
+background: linear-gradient(0deg, rgba(30,193,247,1) 0%, rgba(186,186,224,1) 42%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
 }
 
 p {
@@ -14,6 +15,7 @@ p {
 	color: #fff;
 	opacity: 0.8;
 	line-height: 0.8em;
+    text-shadow: 0 0 5px #000000;
 }
 .word {
 	display: block !important;
@@ -27,7 +29,6 @@ p {
     margin-top:0px;
     margin-left:auto;
     margin-right:auto;
-height:100px;
 width:auto;
 font-size:5vw;
 color:white;
@@ -48,10 +49,32 @@ color:white;
     border-style: solid;
     color:white;
     padding:5px;
-    width: 75%;
     margin:auto;
     border-width:0px;
 }
+
+@media only screen and (min-width: 600px) {
+    #div1, #div2, #div3  {
+      width:75%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    h2, h1, a {
+        font-size:3.5vw !important;
+  }
+  .bar {
+    font-size:3.5vw !important;
+  }
+
+  .floatright {
+    width: 75% !important;
+  }
+
+  .floatright, .floatleft {
+    padding: 0px !important;
+  }
+  }
 
 #skills, #xp, #site {
     display:none;
@@ -81,9 +104,19 @@ h2 {
 
 #div1 {
     border-radius: 25px;
-    background-color:#1d89ab;
     padding:15px;
     border-width:1px;
+    text-shadow: 1px 1px 1px #000000;
+        --s: 100px; /* control the size */
+        --c1: #b2d6de;
+        --c2: #b2d6deb6;
+      
+        background: 
+          linear-gradient(-26.56deg,var(--c1) 33%,var(--c2) 33.3% 66.6%,var(--c1) 67%) 
+          0/var(--s) var(--s);
+        /* 26.56deg = arctan(0.5) */
+      
+      
 }
 
 a {
@@ -109,6 +142,7 @@ background-color:green;
 font-size:1.2vw;
 padding:5px;
 margin:3px;
+opacity: 0.7;
 }
 
 h3, h4 {
@@ -131,23 +165,31 @@ h4{
 
 .red {
 background-color:#ffa600;
+width:100%;
 }
 .blue {
 background-color:#ff6361;
+width:100%;
 }
 .pink {
     background-color:#ef5675;
+    width:50%;
 }
 .purple { 
 background-color:#bc5090;
+width:100%;
 }
 .dpurple {
-    background-color:#58508d
+    background-color:#58508d;
+    width:100%;
 }
 
-.dppurple {
-    background-color:#374c80
+.ddpurple {
+    background-color:#374c80;
+    width:75%;
 }
 .dblue {
-    background-color:#003f5c
+    background-color:#003f5c;
+    width:50%;
 }
+
